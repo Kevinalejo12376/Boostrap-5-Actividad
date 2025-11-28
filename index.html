@@ -9,523 +9,539 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="Sources/favicon.svg">
+    <script src="https://kit.fontawesome.com/14036b7f5a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="position-relative">
-        <nav class="navbar navbar-expand-lg position-absolute top-0 w-100 p-3">
+    <div>
+        <header class="position-relative">
+            <nav class="navbar navbar-expand-lg position-absolute top-0 w-100 p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
+                            alt="Logo Musical">
+                        <span class="fw-bold">MÚSICA</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#fotos">Fotos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactenos">Contactenos</a>
+                            </li>
+                        </ul>
+                        <div class="container-buttons">
+                            <button class="btn btn-header" data-bs-target="#ModalIniciarSesion"
+                                data-bs-toggle="modal">Iniciar Sesión</button>
+                            <button class="btn btn-header" type="submit" data-bs-target="#ModalRegistrarse"
+                                data-bs-toggle="modal">Registrese</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="inicio">
+            <div class="superpocision position-relative text-center">
+                <img src="https://cdn.pixabay.com/index/2024/10/24/06-35-12-385_1440x550.jpg" alt="Banner"
+                    class="img-fluid w-100 position-relative">
+                <h1 class="overlay-text display-5 fw-bold">BIENVENIDOS A LA MUSICA</h1>
+            </div>
+        </section>
+
+        <img src="Sources/partituras rectas repetidas.png" alt="" class="img-fluid pt-3 d-md-block w-100">
+
+        <section id="fotos">
+            <div class="container-fluid text-center">
+                <h1 class="fw-bold mb-3">FOTOS</h1>
+                <p class="mb-4">Ven y disfruta de todas nuestras fotos</p>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- Slide 1: 3 imágenes -->
+                        <div class="carousel-item active">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Museo_della_musica%2C_Venice.jpg"
+                                        class="img-carousel" alt="Foto 1">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Mfoto_16_MUSICA_EN_LA_CATEDRAL_DE_MORELIA.jpg"
+                                        class="img-carousel" alt="Foto 2">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/M%C3%BAsica_Ficta_y_Ensemble_Fontegara_2016.jpg"
+                                        class="img-carousel" alt="Foto 3">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2: 3 imágenes -->
+                        <div class="carousel-item">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGZ7l-7kMKJ8PcaD52WbSbRSPu6zlfa53Ug&s"
+                                        class="img-carousel" alt="Foto 4">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://www.unir.net/wp-content/uploads/2014/10/grado-musica-online-universidad-unir-oficial-1.jpg"
+                                        class="img-carousel" alt="Foto 5">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://imagenes.elpais.com/resizer/v2/S7RBWIFSBVBHTIZZNYDNFD2KM4.jpg?auth=4d1883efa223ea5fda669856aa1fb62bfe2c8b504a1137c192ebacb04e68d4fa&width=414"
+                                        class="img-carousel" alt="Foto 6">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3: 3 imágenes -->
+                        <div class="carousel-item">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://www.redem.org/wp-content/uploads/2025/01/DeWatermark.ai_1737475403339.png"
+                                        class="img-carousel" alt="Foto 7">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://www.mundiario.com/media/mundiario/images/2017/07/22/2017072216480725178.jpg"
+                                        class="img-carousel" alt="Foto 8">
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <img src="https://images.pexels.com/photos/8519720/pexels-photo-8519720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                        class="img-carousel" alt="Foto 9">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <img src="Sources/Ondas Repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
+
+        <section id="quienes-somos">
+            <div class="container-fluid text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12 centrado">
+                        <h1 class="fw-bold mb-3">QUIENES SOMOS</h1>
+                        <p class="text-start">Vivimos la música como una experiencia que conecta, inspira y
+                            transforma.
+                            Somos un equipo apasionado por el sonido, la creatividad y la cultura musical en todas sus
+                            formas. Nuestro objetivo es crear un espacio donde artistas, fans y creadores puedan
+                            encontrarse, descubrir nuevas propuestas y disfrutar de contenido auténtico.
+
+                            Trabajamos cada día para ofrecerte lo mejor del mundo musical: noticias, lanzamientos,
+                            reseñas,
+                            entrevistas, playlists y proyectos especiales pensados para quienes sienten la música tan
+                            intensamente como nosotros.
+
+                            Creemos en el poder de las melodías para unir a las personas, contar historias y generar
+                            emociones únicas. Por eso, ponemos el corazón en cada detalle, construyendo una comunidad
+                            donde
+                            todos tienen voz y ritmo propio.
+
+                            <br><br>Bienvenido a este viaje musical. Aquí, la música no solo se escucha: se vive.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
+                            alt="Logo" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="Sources/partituras rectas repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
+
+        <section id="contactenos">
+            <div class="container-fluid ps-5 pe-5 text-center ">
+                <h1 class="fw-bold mb-5">CONTACTENOS</h1>
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <div class="row contactenos-cajas p-3 me-2">
+                            <div class="col-12">
+                                <h2 class="fw-bold mt-3">EMAIL RAPIDO</h2>
+                                <p>si quieres saber mas sobre nuestra pagina o soporte tecnico envianos un email</p>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <div class="mb-1">
+                                    <label for="Formulariocorreo" class="form-label">Correo Electronico</label>
+                                    <input type="email" class="form-control" id="Formulariocorreo"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-1">
+                                    <label for="FormularioTelefono" class="form-label">Telefono</label>
+                                    <input type="tel" class="form-control" id="FormularioTelefono"
+                                        placeholder="+57 300 1234567">
+                                </div>
+                                <div class="mb-1">
+                                    <label for="FormularioAsunto" class="form-label">Asunto</label>
+                                    <input type="email" class="form-control" id="FormularioAsunto"
+                                        placeholder="Asunto del mensaje">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="FormularioMensaje" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="FormularioMensaje" rows="3"
+                                        placeholder="Hola, Cordial saludo....."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-primary w-50">ENVIAR <i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row contactenos-cajas pt-4 pb-3 mb-4">
+                                    <div class="col-6">
+                                        <h3><i class="fa-solid fa-envelope"></i> EMAIL</h3>
+                                        <p class="m-0"><strong>SERVICIO TECNICO:</strong></p>
+                                        <p class="mb-2">servicio.tecnico@musica.com</p>
+                                        <p class="m-0"><strong>INFORMACIÓN:</strong></p>
+                                        <p class="mb-2">info.music@musica.com</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3><i class="fa-solid fa-location-dot"></i>DIRECCIÓN</h3>
+                                        <p class="mb-0">Cr 45 Av 54</p>
+                                        <p>Girardot-Cundinamarca</p>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <h3><i class="fa-solid fa-phone"></i>TELEFONOS</h3>
+                                        <p class="mb-0">+57 318-2576598</p>
+                                        <p>+57 315-7563540</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 contactenos-cajas pt-4 pb-4">
+                                <div class="row row-gap">
+                                    <div class="col-12">
+                                        <h3 class="mb-4">REDES SOCIALES</h3>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <button type="button" class="btn w-50 btn-redes btn-youtube"><i
+                                                class="fa-brands fa-youtube"></i><strong>YOUTUBE</strong></button>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <button type="button" class="btn w-50 btn-redes btn-facebook"><i
+                                                class="fa-brands fa-facebook"></i><strong>FACEBOOK</strong></button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn w-50 btn-redes btn-tiktok"><i
+                                                class="fa-brands fa-tiktok"></i><strong>TIKTOK</strong></button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn w-50 btn-redes btn-instagram"><i
+                                                class="fa-brands fa-instagram"></i><strong>INSTAGRAM</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="Sources/Ondas Repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
+
+        <!-- Footer -->
+        <footer class="footer-section bg-dark text-white pt-5 pb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#inicio"><img
-                        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
-                        alt="Logo Musical">
-                    <h3>MUSICA</h3>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto ms-auto mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#fotos">Fotos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contactenos">Contactenos</a>
-                        </li>
-                    </ul>
-                    <div class="container-buttons">
-                        <button class="btn btn-header" data-bs-target="#ModalIniciarSesion"
-                            data-bs-toggle="modal">Iniciar Sesión</button>
-                        <button class="btn btn-header" type="submit" data-bs-target="#ModalRegistrarse"
-                            data-bs-toggle="modal">Registrese</button>
+                <div class="row mb-4 justify-content-center">
+                    <!-- Columna 1: Sobre Nosotros -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <h5 class="fw-bold mb-3">SOBRE NOSOTROS</h5>
+                        <p class="text-muted small">Somos una plataforma dedicada a compartir la pasión por la música,
+                            conectando artistas y fans en una comunidad vibrante y auténtica.</p>
+                        <p class="text-muted small"><strong>Ubicación:</strong> Girardot-Cundinamarca</p>
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
+                            alt="Logo Musical" class="footer-logo">
                     </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section id="inicio">
-        <div class="superpocision position-relative text-center">
-            <img src="https://cdn.pixabay.com/index/2024/10/24/06-35-12-385_1440x550.jpg" alt="Banner"
-                class="img-fluid w-100 position-relative">
-            <h1 class="overlay-text display-5 fw-bold">BIENVENIDOS A LA MUSICA</h1>
-        </div>
-    </section>
 
-    <img src="Sources/partituras rectas repetidas.png" alt="" class="img-fluid pt-3 d-md-block w-100">
+                    <!-- Columna 2: Enlaces Rápidos -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <h5 class="fw-bold mb-3">ENLACES RÁPIDOS</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#inicio" class="text-decoration-none text-muted">Inicio</a></li>
+                            <li class="mb-2"><a href="#fotos" class="text-decoration-none text-muted">Fotos</a></li>
+                            <li class="mb-2"><a href="#quienes-somos" class="text-decoration-none text-muted">Quienes
+                                    Somos</a></li>
+                            <li class="mb-2"><a href="#contactenos" class="text-decoration-none text-muted">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
 
-    <section id="fotos">
-        <div class="container-fluid text-center">
-            <h1 class="fw-bold mb-3">FOTOS</h1>
-            <p class="mb-4">Ven y disfruta de todas nuestras fotos</p>
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <!-- Slide 1: 3 imágenes -->
-                    <div class="carousel-item active">
-                        <div class="row g-3 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Museo_della_musica%2C_Venice.jpg"
-                                    class="img-carousel" alt="Foto 1">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Mfoto_16_MUSICA_EN_LA_CATEDRAL_DE_MORELIA.jpg"
-                                    class="img-carousel" alt="Foto 2">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/M%C3%BAsica_Ficta_y_Ensemble_Fontegara_2016.jpg"
-                                    class="img-carousel" alt="Foto 3">
-                            </div>
+                    <!-- Columna 3: Contacto -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <h5 class="fw-bold mb-3">CONTACTO</h5>
+                        <p class="text-muted small mb-2"><i class="fa-solid fa-envelope"></i> <strong>Email:</strong>
+                            info.music@musica.com</p>
+                        <p class="text-muted small mb-2"><i class="fa-solid fa-phone"></i> <strong>Teléfono:</strong>
+                            +57
+                            318-2576598</p>
+                        <p class="text-muted small mb-2"><i class="fa-solid fa-location-dot"></i>
+                            <strong>Dirección:</strong> Cr 45 Av 54
+                        </p>
+                    </div>
+
+                    <!-- Columna 4: Redes Sociales -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <h5 class="fw-bold mb-3">SÍGUENOS</h5>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="#" class="text-white text-decoration-none"><i
+                                    class="fa-brands fa-youtube fa-lg"></i>
+                                YouTube</a>
+                            <a href="#" class="text-white text-decoration-none"><i
+                                    class="fa-brands fa-facebook fa-lg"></i>
+                                Facebook</a>
+                            <a href="#" class="text-white text-decoration-none"><i
+                                    class="fa-brands fa-instagram fa-lg"></i>
+                                Instagram</a>
+                            <a href="#" class="text-white text-decoration-none"><i
+                                    class="fa-brands fa-tiktok fa-lg"></i>
+                                TikTok</a>
                         </div>
                     </div>
-                    <!-- Slide 2: 3 imágenes -->
-                    <div class="carousel-item">
-                        <div class="row g-3 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGZ7l-7kMKJ8PcaD52WbSbRSPu6zlfa53Ug&s"
-                                    class="img-carousel" alt="Foto 4">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://www.unir.net/wp-content/uploads/2014/10/grado-musica-online-universidad-unir-oficial-1.jpg"
-                                    class="img-carousel" alt="Foto 5">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://imagenes.elpais.com/resizer/v2/S7RBWIFSBVBHTIZZNYDNFD2KM4.jpg?auth=4d1883efa223ea5fda669856aa1fb62bfe2c8b504a1137c192ebacb04e68d4fa&width=414"
-                                    class="img-carousel" alt="Foto 6">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slide 3: 3 imágenes -->
-                    <div class="carousel-item">
-                        <div class="row g-3 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://www.redem.org/wp-content/uploads/2025/01/DeWatermark.ai_1737475403339.png"
-                                    class="img-carousel" alt="Foto 7">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://www.mundiario.com/media/mundiario/images/2017/07/22/2017072216480725178.jpg"
-                                    class="img-carousel" alt="Foto 8">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="https://images.pexels.com/photos/8519720/pexels-photo-8519720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                                    class="img-carousel" alt="Foto 9">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
 
-    <img src="Sources/Ondas Repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
+                    <!-- Separador -->
+                    <hr class="bg-secondary">
 
-    <section id="quienes-somos">
-        <div class="container-fluid text-center">
-            <div class="row align-items-center">
-                <div class="col-md-6 col-12 centrado">
-                    <h1 class="fw-bold mb-3">QUIENES SOMOS</h1>
-                    <p class="text-justify">Vivimos la música como una experiencia que conecta, inspira y transforma.
-                        Somos un equipo apasionado por el sonido, la creatividad y la cultura musical en todas sus
-                        formas. Nuestro objetivo es crear un espacio donde artistas, fans y creadores puedan
-                        encontrarse, descubrir nuevas propuestas y disfrutar de contenido auténtico.
-
-                        Trabajamos cada día para ofrecerte lo mejor del mundo musical: noticias, lanzamientos, reseñas,
-                        entrevistas, playlists y proyectos especiales pensados para quienes sienten la música tan
-                        intensamente como nosotros.
-
-                        Creemos en el poder de las melodías para unir a las personas, contar historias y generar
-                        emociones únicas. Por eso, ponemos el corazón en cada detalle, construyendo una comunidad donde
-                        todos tienen voz y ritmo propio.
-
-                        <br><br>Bienvenido a este viaje musical. Aquí, la música no solo se escucha: se vive.
-                    </p>
-                </div>
-                <div class="col-md-6 col-12">
-                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
-                        alt="Logo" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <img src="Sources/partituras rectas repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
-
-    <section id="contactenos">
-        <div class="container-fluid ps-5 pe-5 text-center ">
-            <h1 class="fw-bold mb-5">CONTACTENOS</h1>
-            <div class="row">
-                <div class="col-6 text-center">
-                    <div class="row contactenos-cajas p-3 me-2">
-                        <div class="col-12">
-                            <h2 class="fw-bold mt-3">EMAIL RAPIDO</h2>
-                            <p>si quieres saber mas sobre nuestra pagina o soporte tecnico envianos un email</p>
-                            <hr>
-                        </div>
-                        <div class="col-12">
-                            <div class="mb-1">
-                                <label for="Formulariocorreo" class="form-label">Correo Electronico</label>
-                                <input type="email" class="form-control" id="Formulariocorreo"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="mb-1">
-                                <label for="FormularioTelefono" class="form-label">Telefono</label>
-                                <input type="email" class="form-control" id="FormularioTelefono"
-                                    placeholder="+57 312#######">
-                            </div>
-                            <div class="mb-1">
-                                <label for="FormularioAsunto" class="form-label">Asunto</label>
-                                <input type="email" class="form-control" id="FormularioAsunto"
-                                    placeholder="Asunto del mensaje">
-                            </div>
-                            <div class="mb-3">
-                                <label for="FormularioMensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="FormularioMensaje" rows="3"
-                                    placeholder="Hola, Cordial saludo....."></textarea>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button type="button" class="btn btn-outline-primary w-50">ENVIAR <i
-                                    class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
+                    <!-- Derechos Reservados -->
                     <div class="row">
-                        <div class="col-12">
-                            <div class="row contactenos-cajas pt-4 pb-3 mb-4">
-                                <div class="col-6">
-                                    <h3><i class="fa-solid fa-envelope"></i> EMAIL</h3>
-                                    <p class="m-0"><strong>SERVICIO TECNICO:</strong></p>
-                                    <p class="mb-2">servicio.tecnico@musica.com</p>
-                                    <p class="m-0"><strong>INFORMACIÓN:</strong></p>
-                                    <p class="mb-2">info.music@musica.com</p>
-                                </div>
-                                <div class="col-6">
-                                    <h3><i class="fa-solid fa-location-dot"></i>DIRECCIÓN</h3>
-                                    <p class="mb-0">Cr 45 Av 54</p>
-                                    <p>Girardot-Cundinamarca</p>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <h3><i class="fa-solid fa-phone"></i>TELEFONOS</h3>
-                                    <p class="mb-0">+57 318-2576598</p>
-                                    <p>+57 315-7563540</p>
-                                </div>
+                        <div class="col-12 text-center">
+                            <p class="text-muted small mb-0">&copy; 2025 Música. Todos los derechos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>|
+    <!-- Modal de Iniciar Sesión -->
+    <div class="modal fade" id="ModalIniciarSesion" aria-labelledby="ModalIniciarSesion" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-login-custom">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center px-4 pb-4">
+                    <!-- Icono y Título -->
+                    <div class="mb-4">
+                        <div class="login-music-icon mb-3">
+                            <i class="fa fa-music"></i>
+                        </div>
+                        <h2 class="login-title mb-2">¡Bienvenido de Nuevo!</h2>
+                        <p class="login-subtitle">Inicia sesión para continuar con la música</p>
+                    </div>
+
+                    <!-- Formulario -->
+                    <form>
+                        <!-- Email -->
+                        <div class="mb-3 text-start">
+                            <label for="loginEmail" class="form-label login-label">
+                                <i class="fa-solid fa-envelope me-2"></i>Correo Electrónico
+                            </label>
+                            <input type="email" class="form-control login-input" id="loginEmail"
+                                placeholder="tucorreo@ejemplo.com" required autocomplete="off">
+                        </div>
+
+                        <!-- Contraseña -->
+                        <div class="mb-3 text-start">
+                            <label for="loginPassword" class="form-label login-label">
+                                <i class="fa-solid fa-lock me-2"></i>Contraseña
+                            </label>
+                            <input type="password" class="form-control login-input" id="loginPassword"
+                                placeholder="••••••••" required autocomplete="off">
+                        </div>
+
+                        <!-- Recordar y Olvidé -->
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input login-checkbox" type="checkbox" id="rememberMe">
+                                <label class="form-check-label login-remember" for="rememberMe">
+                                    Recordarme
+                                </label>
+                            </div>
+                            <a href="#" class="login-link">¿Olvidaste tu contraseña?</a>
+                        </div>
+
+                        <!-- Botón Iniciar Sesión -->
+                        <button type="submit" class="btn login-btn w-100 mb-3">
+                            <i class="fa-solid fa-right-to-bracket me-2"></i>Iniciar Sesión
+                        </button>
+                    </form>
+
+                    <!-- Divisor -->
+                    <div class="login-divider my-4">
+                        <span>O continúa con</span>
+                    </div>
+
+                    <!-- Botones Redes Sociales -->
+                    <div class="row g-2 mb-4">
+                        <div class="col-6">
+                            <button type="button" class="btn login-social-btn w-100">
+                                <i class="fa-brands fa-google me-2"></i>Google
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn login-social-btn w-100">
+                                <i class="fa-brands fa-facebook-f me-2"></i>Facebook
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Registro -->
+                    <div class="login-register-text">
+                        ¿No tienes cuenta?
+                        <a href="#" class="login-register-link" data-bs-target="#ModalRegistrarse"
+                            data-bs-toggle="modal">
+                            Regístrate aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal de Registrarse -->
+    <div class="modal fade" id="ModalRegistrarse" aria-labelledby="ModalRegistrarse" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-login-custom">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center px-4 pb-4">
+                    <!-- Icono y Título -->
+                    <div class="mb-4">
+                        <div class="login-music-icon mb-3">
+                            <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                        <h2 class="login-title mb-2">¡Únete a la Música!</h2>
+                        <p class="login-subtitle">Crea tu cuenta y empieza a disfrutar</p>
+                    </div>
+
+                    <!-- Formulario -->
+                    <form>
+                        <!-- Nombre Completo -->
+                        <div class="mb-3 text-start">
+                            <label for="registerName" class="form-label login-label">
+                                <i class="fa-solid fa-user me-2"></i>Nombre Completo
+                            </label>
+                            <input type="text" class="form-control login-input" id="registerName"
+                                placeholder="Tu nombre completo" required autocomplete="off">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3 text-start">
+                            <label for="registerEmail" class="form-label login-label">
+                                <i class="fa-solid fa-envelope me-2"></i>Correo Electrónico
+                            </label>
+                            <input type="email" class="form-control login-input" id="registerEmail"
+                                placeholder="tucorreo@ejemplo.com" required autocomplete="off">
+                        </div>
+
+                        <!-- Contraseña -->
+                        <div class="mb-3 text-start">
+                            <label for="registerPassword" class="form-label login-label">
+                                <i class="fa-solid fa-lock me-2"></i>Contraseña
+                            </label>
+                            <input type="password" class="form-control login-input" id="registerPassword"
+                                placeholder="Mínimo 8 caracteres" required autocomplete="off">
+                        </div>
+
+                        <!-- Confirmar Contraseña -->
+                        <div class="mb-3 text-start">
+                            <label for="registerConfirmPassword" class="form-label login-label">
+                                <i class="fa-solid fa-lock me-2"></i>Confirmar Contraseña
+                            </label>
+                            <input type="password" class="form-control login-input" id="registerConfirmPassword"
+                                placeholder="Repite tu contraseña" required autocomplete="off">
+                        </div>
+
+                        <!-- Términos y Condiciones -->
+                        <div class="mb-4 text-start">
+                            <div class="form-check">
+                                <input class="form-check-input login-checkbox" type="checkbox" id="acceptTerms"
+                                    required>
+                                <label class="form-check-label login-remember" for="acceptTerms">
+                                    Acepto los <a href="#" class="login-link">términos y condiciones</a>
+                                </label>
                             </div>
                         </div>
-                        <div class="col-12 contactenos-cajas pt-4 pb-4">
-                            <div class="row row-gap">
-                                <div class="col-12">
-                                    <h3 class="mb-4">REDES SOCIALES</h3>
-                                </div>
-                                <div class="col-6 mb-2">
-                                    <button type="button" class="btn w-50 btn-redes btn-youtube"><i
-                                            class="fa-brands fa-youtube"></i><strong>YOUTUBE</strong></button>
-                                </div>
-                                <div class="col-6 mb-2">
-                                    <button type="button" class="btn w-50 btn-redes btn-facebook"><i
-                                            class="fa-brands fa-facebook"></i><strong>FACEBOOK</strong></button>
-                                </div>
-                                <div class="col-6">
-                                    <button type="button" class="btn w-50 btn-redes btn-tiktok"><i
-                                            class="fa-brands fa-tiktok"></i><strong>TIKTOK</strong></button>
-                                </div>
-                                <div class="col-6">
-                                    <button type="button" class="btn w-50 btn-redes btn-instagram"><i
-                                            class="fa-brands fa-instagram"></i><strong>INSTAGRAM</strong></button>
-                                </div>
-                            </div>
+
+                        <!-- Botón Registrarse -->
+                        <button type="submit" class="btn login-btn w-100 mb-3">
+                            <i class="fa-solid fa-user-plus me-2"></i>Crear Cuenta
+                        </button>
+                    </form>
+
+                    <!-- Divisor -->
+                    <div class="login-divider my-4">
+                        <span>O regístrate con</span>
+                    </div>
+
+                    <!-- Botones Redes Sociales -->
+                    <div class="row g-2 mb-4">
+                        <div class="col-6">
+                            <button type="button" class="btn login-social-btn w-100">
+                                <i class="fa-brands fa-google me-2"></i>Google
+                            </button>
                         </div>
+                        <div class="col-6">
+                            <button type="button" class="btn login-social-btn w-100">
+                                <i class="fa-brands fa-facebook-f me-2"></i>Facebook
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Enlace a Inicio de Sesión -->
+                    <div class="login-register-text">
+                        ¿Ya tienes cuenta?
+                        <a href="#" class="login-register-link" data-bs-target="#ModalIniciarSesion"
+                            data-bs-toggle="modal">
+                            Inicia sesión aquí
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <img src="Sources/Ondas Repetidas.png" alt="" class="img-fluid pt-3 pb-3 d-md-block w-100">
-
-    <!-- Footer -->
-    <footer class="footer-section bg-dark text-white pt-5 pb-3">
-        <div class="container-fluid">
-            <div class="row mb-4 justify-content-center">
-                <!-- Columna 1: Sobre Nosotros -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <h5 class="fw-bold mb-3">SOBRE NOSOTROS</h5>
-                    <p class="text-muted small">Somos una plataforma dedicada a compartir la pasión por la música,
-                        conectando artistas y fans en una comunidad vibrante y auténtica.</p>
-                    <p class="text-muted small"><strong>Ubicación:</strong> Girardot-Cundinamarca</p>
-                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-2023-design-template-caaf8e91f9fa020453d01fd28baaa2ad_screen.jpg?ts=1663248978"
-                        alt="Logo Musical" class="footer-logo">
-                </div>
-
-                <!-- Columna 2: Enlaces Rápidos -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <h5 class="fw-bold mb-3">ENLACES RÁPIDOS</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#inicio" class="text-decoration-none text-muted">Inicio</a></li>
-                        <li class="mb-2"><a href="#fotos" class="text-decoration-none text-muted">Fotos</a></li>
-                        <li class="mb-2"><a href="#quienes-somos" class="text-decoration-none text-muted">Quienes
-                                Somos</a></li>
-                        <li class="mb-2"><a href="#contactenos" class="text-decoration-none text-muted">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Columna 3: Contacto -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <h5 class="fw-bold mb-3">CONTACTO</h5>
-                    <p class="text-muted small mb-2"><i class="fa-solid fa-envelope"></i> <strong>Email:</strong>
-                        info.music@musica.com</p>
-                    <p class="text-muted small mb-2"><i class="fa-solid fa-phone"></i> <strong>Teléfono:</strong> +57
-                        318-2576598</p>
-                    <p class="text-muted small mb-2"><i class="fa-solid fa-location-dot"></i>
-                        <strong>Dirección:</strong> Cr 45 Av 54
-                    </p>
-                </div>
-
-                <!-- Columna 4: Redes Sociales -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <h5 class="fw-bold mb-3">SÍGUENOS</h5>
-                    <div class="d-flex flex-column gap-2">
-                        <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-youtube fa-lg"></i>
-                            YouTube</a>
-                        <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-facebook fa-lg"></i>
-                            Facebook</a>
-                        <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-instagram fa-lg"></i>
-                            Instagram</a>
-                        <a href="#" class="text-white text-decoration-none"><i class="fa-brands fa-tiktok fa-lg"></i>
-                            TikTok</a>
-                    </div>
-                </div>
-
-<!-- Separador -->
-<hr class="bg-secondary">
-
-<!-- Derechos Reservados -->
-<div class="row">
-    <div class="col-12 text-center">
-        <p class="text-muted small mb-0">&copy; 2025 Música. Todos los derechos reservados.</p>
     </div>
-</div>
-</div>
-</footer>
 
-<!-- Modal de Iniciar Sesión -->
-<div class="modal fade" id="ModalIniciarSesion" aria-hidden="true" aria-labelledby="ModalIniciarSesion" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal-login-custom">
-            <div class="modal-header border-0">
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center px-4 pb-4">
-                <!-- Icono y Título -->
-                <div class="mb-4">
-                    <div class="login-music-icon mb-3">
-                        <i class="fa fa-music"></i>
-                    </div>
-                    <h2 class="login-title mb-2">¡Bienvenido de Nuevo!</h2>
-                    <p class="login-subtitle">Inicia sesión para continuar con la música</p>
-                </div>
 
-                <!-- Formulario -->
-                <form>
-                    <!-- Email -->
-                    <div class="mb-3 text-start">
-                        <label for="loginEmail" class="form-label login-label">
-                            <i class="fa-solid fa-envelope me-2"></i>Correo Electrónico
-                        </label>
-                        <input type="email" class="form-control login-input" id="loginEmail"
-                            placeholder="tucorreo@ejemplo.com" required>
-                    </div>
-
-                    <!-- Contraseña -->
-                    <div class="mb-3 text-start">
-                        <label for="loginPassword" class="form-label login-label">
-                            <i class="fa-solid fa-lock me-2"></i>Contraseña
-                        </label>
-                        <input type="password" class="form-control login-input" id="loginPassword"
-                            placeholder="••••••••" required>
-                    </div>
-
-                    <!-- Recordar y Olvidé -->
-                    <div class="d-flex justify-content-between align-items-center mb-4">
-                        <div class="form-check">
-                            <input class="form-check-input login-checkbox" type="checkbox" id="rememberMe">
-                            <label class="form-check-label login-remember" for="rememberMe">
-                                Recordarme
-                            </label>
-                        </div>
-                        <a href="#" class="login-link">¿Olvidaste tu contraseña?</a>
-                    </div>
-
-                    <!-- Botón Iniciar Sesión -->
-                    <button type="submit" class="btn login-btn w-100 mb-3">
-                        <i class="fa-solid fa-right-to-bracket me-2"></i>Iniciar Sesión
-                    </button>
-                </form>
-
-                <!-- Divisor -->
-                <div class="login-divider my-4">
-                    <span>O continúa con</span>
-                </div>
-
-                <!-- Botones Redes Sociales -->
-                <div class="row g-2 mb-4">
-                    <div class="col-6">
-                        <button type="button" class="btn login-social-btn w-100">
-                            <i class="fa-brands fa-google me-2"></i>Google
-                        </button>
-                    </div>
-                    <div class="col-6">
-                        <button type="button" class="btn login-social-btn w-100">
-                            <i class="fa-brands fa-facebook-f me-2"></i>Facebook
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Registro -->
-                <div class="login-register-text">
-                    ¿No tienes cuenta?
-                    <a href="#" class="login-register-link" data-bs-target="#ModalRegistrarse" data-bs-toggle="modal">
-                        Regístrate aquí
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal de Registrarse -->
-<div class="modal fade" id="ModalRegistrarse" aria-hidden="true" aria-labelledby="ModalRegistrarse" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal-login-custom">
-            <div class="modal-header border-0">
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center px-4 pb-4">
-                <!-- Icono y Título -->
-                <div class="mb-4">
-                    <div class="login-music-icon mb-3">
-                        <i class="fa-solid fa-user-plus"></i>
-                    </div>
-                    <h2 class="login-title mb-2">¡Únete a la Música!</h2>
-                    <p class="login-subtitle">Crea tu cuenta y empieza a disfrutar</p>
-                </div>
-
-                <!-- Formulario -->
-                <form>
-                    <!-- Nombre Completo -->
-                    <div class="mb-3 text-start">
-                        <label for="registerName" class="form-label login-label">
-                            <i class="fa-solid fa-user me-2"></i>Nombre Completo
-                        </label>
-                        <input type="text" class="form-control login-input" id="registerName"
-                            placeholder="Tu nombre completo" required>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="mb-3 text-start">
-                        <label for="registerEmail" class="form-label login-label">
-                            <i class="fa-solid fa-envelope me-2"></i>Correo Electrónico
-                        </label>
-                        <input type="email" class="form-control login-input" id="registerEmail"
-                            placeholder="tucorreo@ejemplo.com" required>
-                    </div>
-
-                    <!-- Contraseña -->
-                    <div class="mb-3 text-start">
-                        <label for="registerPassword" class="form-label login-label">
-                            <i class="fa-solid fa-lock me-2"></i>Contraseña
-                        </label>
-                        <input type="password" class="form-control login-input" id="registerPassword"
-                            placeholder="Mínimo 8 caracteres" required>
-                    </div>
-
-                    <!-- Confirmar Contraseña -->
-                    <div class="mb-3 text-start">
-                        <label for="registerConfirmPassword" class="form-label login-label">
-                            <i class="fa-solid fa-lock me-2"></i>Confirmar Contraseña
-                        </label>
-                        <input type="password" class="form-control login-input" id="registerConfirmPassword"
-                            placeholder="Repite tu contraseña" required>
-                    </div>
-
-                    <!-- Términos y Condiciones -->
-                    <div class="mb-4 text-start">
-                        <div class="form-check">
-                            <input class="form-check-input login-checkbox" type="checkbox" id="acceptTerms" required>
-                            <label class="form-check-label login-remember" for="acceptTerms">
-                                Acepto los <a href="#" class="login-link">términos y condiciones</a>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Botón Registrarse -->
-                    <button type="submit" class="btn login-btn w-100 mb-3">
-                        <i class="fa-solid fa-user-plus me-2"></i>Crear Cuenta
-                    </button>
-                </form>
-
-                <!-- Divisor -->
-                <div class="login-divider my-4">
-                    <span>O regístrate con</span>
-                </div>
-
-                <!-- Botones Redes Sociales -->
-                <div class="row g-2 mb-4">
-                    <div class="col-6">
-                        <button type="button" class="btn login-social-btn w-100">
-                            <i class="fa-brands fa-google me-2"></i>Google
-                        </button>
-                    </div>
-                    <div class="col-6">
-                        <button type="button" class="btn login-social-btn w-100">
-                            <i class="fa-brands fa-facebook-f me-2"></i>Facebook
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Enlace a Inicio de Sesión -->
-                <div class="login-register-text">
-                    ¿Ya tienes cuenta?
-                    <a href="#" class="login-register-link" data-bs-target="#ModalIniciarSesion" data-bs-toggle="modal">
-                        Inicia sesión aquí
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/14036b7f5a.js" crossorigin="anonymous"></script>
+
 
 </body>
 
